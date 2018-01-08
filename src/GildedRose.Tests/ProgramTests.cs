@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using GildedRose.Console;
+using NUnit.Framework;
 
 namespace GildedRose.Tests
 {
@@ -8,7 +9,12 @@ namespace GildedRose.Tests
         [Test]
         public void Foo()
         {
-            Program program
+            // Arrange
+            Program program = new Program();
+
+            // Act
+
+            // Assert
         }
     }
 }
